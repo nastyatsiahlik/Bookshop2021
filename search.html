@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header-nav">
+            <div class="logo"><a href="index.html" ><h1>Bookshop</h1></a></div>
+            <div class="nav">
+                <ul>
+                  <a href="sourch.html"  onclick="return false"><li>Поиск</li> </a>  
+                  <a href="index.html"><li>Главное</li> </a> 
+                  <a href="#"><li>Регистрация</li> </a>  
+                  <a href="https://www.figma.com/file/D3rKTSSz8HRw6O1iR3J1pg/Bookshop?node-id=0%3A1"><li>Figma</li> </a> 
+                </ul>
+            </div>
+        </div>
+
+
+
+        <nav class="mobile-menu">
+            <div class="mob-logo">
+                <h1>Bookshop</h1>
+            </div>
+            <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+            <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+            <div class="mobile-menu__container">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="search.html" class="mobile-menu__link">Поиск</a></li>
+                <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">Главная</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Регистрация</a></li>
+                <li class="mobile-menu__item"><a href="https://www.figma.com/file/D3rKTSSz8HRw6O1iR3J1pg/Bookshop?node-id=0%3A1" class="mobile-menu__link">Figma</a></li>
+            </ul>
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+        <div class="search_page">  
+
+            <div class="mspage">
+                <div class="search_bar">
+                    <input type="text" placeholder="| поиск">
+                    <button><h3>Найти</h3></button>
+                </div>
+                <div class="result"> 
+                <p>Все что нам удалось найти по вашему запросу.</p>
+                </div>
+                <div class="result_book">
+                    
+                  
+                    <div class="s_b">
+                        <img src="img(web)/b1.png" alt="Лагом">
+                        <h2>Лагом </h2>
+                        <h4>Карлсон Э.</h4>
+                        <p>$37</p>
+                    </div>
+                    <div class="s_b">
+                        <img src="img(web)/b2.png" alt="Хочу и буду">
+                        <h2>Хочу и буду </h2>
+                        <h4>Лабковский М.</h4>
+                        <p>$26</p>
+                    </div>
+                    <div class="s_b ">
+                        <img src="img(web)/b3.png" alt="НИ СЫ">
+                        <h2>НИ СЫ </h2>
+                        <h4>Синсеро Дж.</h4>
+                        <p>$49</p>
+                    </div>
+                    <div class="s_b">
+                        <img src="img(web)/b5.png" alt="Умная собачка Соня">
+                        <h2>Умная собачка Соня </h2>
+                        <h4>Усачев А.</h4>
+                        <p>$39</p>
+                    </div>
+                    <div class="s_b">
+                        <img src="img(web)/b6.png" alt="Гарри Поттер">
+                        <h2>Гарри Поттер </h2>
+                        <h4>Роулинг Дж.</h4>
+                        <p>$32</p>
+                    </div>
+                    <div class="s_b ">
+                        <img src="img(web)/b7.png" alt="Не навреди">
+                        <h2>Не навреди </h2>
+                        <h4>Марш Г.</h4>
+                        <p>$78</p>
+                    </div>
+                    <div class="s_b ">
+                        <img src="img(web)/b4.png" alt="1984">
+                        <h2>1984 </h2>
+                        <h4>Оруэлл Дж.</h4>
+                        <p>$41</p>
+                    </div>
+                    <div class="s_b">
+                        <img src="img(web)/b8.png" alt="НЕ ТУПИ">
+                        <h2>НЕ ТУПИ </h2>
+                        <h4>Синсеро Дж.</h4>
+                        <p>$38</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        <div class="filter">
+            <div class="filter_title"><h2>Фильтры</h2></div>
+            <div class="category">
+                <form >
+                    <h3>Категория</h3>
+                        <p><input type="checkbox" name="option1" value="a1" >  Бизнес-литература</p>
+                        <p><input type="checkbox" name="option1" value="a1" >  Детские книги</p> 
+                        <p><input type="checkbox" name="option1" value="a1" checked>  Нехудожественная литература</p>
+                        <p><input type="checkbox" name="option1" value="a1" >  Учебная литература</p>
+                        <p><input type="checkbox" name="option1" value="a1" >  Художественная литература</p>
+                    
+                   
+                </form>
+
+
+            </div>
+
+            <div class="author">
+                <form >
+                    <h3>Автор</h3>
+                    <p><input type="checkbox" name="option1" value="a1" >  Стивен Кинг</p>
+                    <p><input type="checkbox" name="option1" value="a1" >  Валерий Казаков</p>
+                    <p> <input type="checkbox" name="option1" value="a1" >  Тамара Адамович</p>
+                    <p><input type="checkbox" name="option1" value="a1" >  Ирина Арефьева</p>
+                    <p> <input id="author_input" type="text" placeholder=" Введите фамилию" > </p>
+                
+                </form>
+            </div>
+
+            <div class="availability">
+                <form >
+                    <h3>Наличие</h3>
+                    <p><input type="checkbox" name="option1" value="a1" >  на складе</p>
+                    <p>  <input type="checkbox" name="option1" value="a1" >  под заказ</p>
+                </form>
+
+
+            </div>
+            <div class="price">
+                    <form>
+                        <h3>Цена</h3>
+                        <p>от <input class="input_price" type="number" placeholder="0"> до <input class="input_price" type="number" placeholder="999"></p>
+                    </form>
+
+            </div>
+            <button id="filter_button"><h3>Найти</h3></button>
+
+        </div>
+
+
+        </div>
+        
+
+        <div class="footer">
+            <div class="contact"> 
+                <div class="logo"><a href="index.html" ><h1>Bookshop</h1></a></div>
+                <div class="fimg">
+                    <div class="fim"><img src="img(web)/tel.png" alt="иконка телефона"></div>
+                    <div class="fh"><p>+375(29) 64-23-456</p></div>
+                </div>
+                <div class="fimg">
+                    <div class="fim"><img src="img(web)/pochta.png" alt="иконка почты"></div>
+                    <div class="fh"><p>+375(29) 64-23-456</p></div>
+                </div>
+                
+            </div>
+            <div class="nav">
+                <ul>
+                  <a href="search.html"><li>Поиск</li> </a>  
+                  <a href="index.html"><li>Главное</li> </a> 
+                  <a href="#"><li>Регистрация</li> </a>  
+                  <a href="https://www.figma.com/file/D3rKTSSz8HRw6O1iR3J1pg/Bookshop?node-id=0%3A1"><li>Figma</li> </a> 
+                </ul>
+            </div>
+        </div>
+
+
+    </div>  
+
+
+</body>
+</html>

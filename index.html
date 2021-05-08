@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="header-nav">
+            <div class="logo"><a href="index.html" onclick="return false"><h1>Bookshop</h1></a></div>
+            <div class="nav">
+                <ul>
+                  <a href="search.html"><li>Поиск</li> </a>  
+                  <a href="index.html"  onclick="return false"><li>Главное</li> </a> 
+                  <a href="#sign_up" ><li>Регистрация</li> </a>  
+                  <a href="https://www.figma.com/file/D3rKTSSz8HRw6O1iR3J1pg/Bookshop?node-id=0%3A1"><li>Figma</li> </a> 
+                </ul>
+            </div>
+        </div>
+
+
+
+       <a href="#" id="sign_up"><div id="okno">
+            <div class="okno-title">
+                <h2>Регистрация</h2>
+            </div>
+            <div class="sign">
+                <form>
+                    <h4>Введите ваше имя</h4>
+                    <input id="sign-input" type="text" placeholder=" Введите ваше имя " >
+                    <h4>Введите вашу фамилию</h4>
+                    <input id="sign-input" type="text" placeholder=" Введите вашу фамилию " >
+                    <h4>Введите ваш Email</h4>
+                    <input id="sign-input" type="text" placeholder=" Введите  ваш Email" >
+                    <h4>Введите пароль</h4>
+                    <input id="sign-input" type="text" placeholder=" Введите пароль" >
+                    <h4>Повторите пароль</h4>
+                    <input id="sign-input" type="text" placeholder=" Повторите пароль" >
+                </form>
+                <button id="sign_button"><h3>Зарегистрироваться</h3></button>
+
+            </div>
+        </div></a> 
+
+
+        
+        <nav class="mobile-menu">
+            <div class="mob-logo">
+                <h1>Bookshop</h1>
+            </div>
+            <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+            <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+            <div class="mobile-menu__container">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="search.html" class="mobile-menu__link">Поиск</a></li>
+                <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">Главная</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Регистрация</a></li>
+                <li class="mobile-menu__item"><a href="https://www.figma.com/file/D3rKTSSz8HRw6O1iR3J1pg/Bookshop?node-id=0%3A1" class="mobile-menu__link">Figma</a></li>
+            </ul>
+            </div>
+        </nav>
+
+
+
+
+        
+
+
+        <div class="mainpage">
+                <div class="welcome_text">
+                    <h2>Добро пожаловать<br> в удивительный мир книг</h2>
+                    <h1>Bookshop</h1>
+                </div>
+
+
+                <div class="welcome_text_mob">
+                    <h2>Добро пожаловать<br> в удивительный мир<br> книг</h2>
+                    <h1>Bookshop</h1>
+                </div>
+
+
+                <div class="search" >
+                    <input type="text" placeholder="поиск">
+                    <button><h3>Найти</h3></button>
+                </div>
+ 
+        </div>
+        <div class="why"  id="top1" >
+            <div class="why_title">
+                <h3>Почему именно мы?</h3>
+                <hr>
+            </div>
+            <div class="why_elements" >
+                <div class="el_w">
+                    <h2>Огромный выбор</h2>
+                    <p>В нашем магазине представлены книги около 30 различных жанров</p>
+                </div>
+                <div class="el_w">
+                    <h2>Бесплатная доставка</h2>
+                    <p>Доставка действует в любую точку нашей страны абсолютно бесплатно</p>
+                </div>
+                <div class="el_w">
+                    <h2>Актуальный ассортимент</h2>
+                    <p>В нашем магазине ты сможешь найти самые популярные навинки</p>
+                </div>
+                <div class="el_w">
+                    <h2>Скидки и акции</h2>
+                    <p>У нас действуют постоянные акции и скидки для наших клиентов</p>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="hit" id="t">
+            <div class="why_title">
+                <h3>Хит продаж</h3>
+                <hr>
+            </div>
+        
+            <div class="book_elements slider">
+                <div class="arrow_left arrow">
+                    <img src="img(web)/arr_left.png" alt="Arrow">
+                </div>
+                <div class="visible-slider-line">
+                    <div class="slider-line">
+                        <div class="el_b slider-element1">
+                            <img src="img(web)/b1.png" alt="Лагом">
+                            <h2>Лагом </h2>
+                            <h4>Карлсон Э.</h4>
+                            <p>$37</p>
+                        </div>
+                        <div class="el_b slider-element2">
+                            <img src="img(web)/b2.png" alt="Хочу и буду">
+                            <h2>Хочу и буду </h2>
+                            <h4>Лабковский М.</h4>
+                            <p>$26</p>
+                        </div>
+                        <div class="el_b slider-element3">
+                            <img src="img(web)/b3.png" alt="НИ СЫ">
+                            <h2>НИ СЫ </h2>
+                            <h4>Синсеро Дж.</h4>
+                            <p>$49</p>
+                        </div>
+                        <div class="el_b slider-element4">
+                            <img src="img(web)/b5.png" alt="Умная собачка Соня">
+                            <h2>Умная собачка Соня </h2>
+                            <h4>Усачев А.</h4>
+                            <p>$39</p>
+                        </div>
+                        <div class="el_b slider-element5">
+                            <img src="img(web)/b6.png" alt="Гарри Поттер">
+                            <h2>Гарри Поттер </h2>
+                            <h4>Роулинг Дж.</h4>
+                            <p>$32</p>
+                        </div>
+                        <div class="el_b slider-element6">
+                            <img src="img(web)/b7.png" alt="Не навреди">
+                            <h2>Не навреди </h2>
+                            <h4>Марш Г.</h4>
+                            <p>$78</p>
+                        </div>
+                        <div class="el_b slider-element7">
+                            <img src="img(web)/b4.png" alt="1984">
+                            <h2>1984 </h2>
+                            <h4>Оруэлл Дж.</h4>
+                            <p>$41</p>
+                        </div>
+                        <div class="el_b slider-element8">
+                            <img src="img(web)/b8.png" alt="НЕ ТУПИ">
+                            <h2>НЕ ТУПИ </h2>
+                            <h4>Синсеро Дж.</h4>
+                            <p>$38</p>
+                        </div>
+                    </div>
+                 </div>
+
+                <div class="arrow_right arrow">
+                    <img src="img(web)/arr_right.png" alt="Arrow">
+                </div>
+            </div>
+
+            <div class="book_elements_mob">
+                   
+                        <div class="el_b ">
+                            <img src="img(web)/b1.png" alt="">
+                            <h2>Лагом </h2>
+                            <h4>Карлсон Э.</h4>
+                            <p>$37</p>
+                        </div>
+                        <div class="el_b ">
+                            <img src="img(web)/b2.png" alt="">
+                            <h2>Хочу и буду </h2>
+                            <h4>Лабковский М.</h4>
+                            <p>$26</p>
+                        </div>
+                        <div class="el_b ">
+                            <img src="img(web)/b3.png" alt="">
+                            <h2>НИ СЫ </h2>
+                            <h4>Синсеро Дж.</h4>
+                            <p>$49</p>
+                        </div>
+                        <div class="el_b ">
+                            <img src="img(web)/b5.png" alt="">
+                            <h2>Умная собачка Соня </h2>
+                            <h4>Усачев А.</h4>
+                            <p>$39</p>
+                        <div class="el_b ">
+                            <img src="img(web)/b6.png" alt="Гарри Поттер">
+                            <h2>Гарри Поттер </h2>
+                            <h4>Роулинг Дж.</h4>
+                            <p>$32</p>
+                        </div>
+                      
+            </div>
+    
+
+
+
+
+
+
+        </div>
+
+
+        <div class="footer">
+            <div class="contact"> 
+                <div class="logo"><h1>Bookshop</h1></div>
+                <div class="fimg">
+                    <div class="fim"><img src="img(web)/tel.png" alt="иконка телефона"></div>
+                    <div class="fh"><p>+375(29) 64-23-456</p></div>
+                </div>
+                <div class="fimg">
+                    <div class="fim"><img src="img(web)/pochta.png" alt="иконка почты"></div>
+                    <div class="fh"><p>+375(29) 64-23-456</p></div>
+                </div>
+                
+            </div>
+            <div class="nav">
+                <ul>
+                  <a href="index.html"><li>Поиск</li> </a>  
+                  <a href="search.html"><li>Главное</li> </a> 
+                  <a href="#"><li>Регистрация</li> </a>  
+                  <a href="https://www.figma.com/file/D3rKTSSz8HRw6O1iR3J1pg/Bookshop?node-id=0%3A1"><li>Figma</li> </a> 
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+<script src="js.js" defer></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop()>90){
+			$('#top1').fadeIn(1200)
+		}else{
+			$('#top1').fadeOut(700)
+		}
+	});
+    $(window).scroll(function(){
+		if($(window).scrollTop()>120){
+			$('#t').fadeIn(3700)
+		}else{
+			$('#t').fadeOut(700)
+		}
+	});
+
+
+
+})
+</script>
+</body>
+</html>
